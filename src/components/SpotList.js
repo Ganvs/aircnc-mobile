@@ -1,6 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { View, Text } from "react-native";
+import api from "../services/api";
 
-export default function SpotList() {
-  return <Text>Teste</Text>;
+export default function SpotList({ tech }) {
+  const [spots, setSpots] = useState([]);
+
+  useEffect(() => {
+    async function loadSpots() {
+      const response = await api.get("/spots", {
+        params: { tech }
+      });
+
+      setSpots(response.data);
+    }
+
+    loadSpots();
+  }, []);
+
+  return <Text>{tech}</Text>;
 }
