@@ -27,7 +27,7 @@ export default function SpotList({ tech }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>
-        Empresas que usam <Text style={styles.bold}>{tech}</Text>
+        Empresas que usamm <Text style={styles.bold}>{tech}</Text>
       </Text>
 
       <FlatList
@@ -35,7 +35,7 @@ export default function SpotList({ tech }) {
         data={spots}
         keyExtractor={spot => spot._id}
         horizontal
-        showsHorizontalScrollIndicator={true}
+        showsHorizontalScrollIndicator={false}
         renderItem={({ item }) => (
           <View style={styles.listItem}>
             <Image
@@ -70,5 +70,48 @@ const styles = StyleSheet.create({
 
   bold: {
     fontWeight: "bold"
+  },
+
+  list: {
+    paddingHorizontal: 20
+  },
+
+  listItem: {
+    marginRight: 15
+  },
+
+  thumbnail: {
+    width: 200,
+    height: 120,
+    resizeMode: "cover",
+    borderRadius: 2
+  },
+
+  company: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color: "#333",
+    marginTop: 10
+  },
+
+  price: {
+    fontSize: 15,
+    color: "#999",
+    marginTop: 5
+  },
+
+  button: {
+    height: 32,
+    backgroundColor: "#f05a5b",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 2,
+    marginTop: 15
+  },
+
+  buttonText: {
+    color: "#fff",
+    fontWeight: "bold",
+    fontSize: 15
   }
 });
