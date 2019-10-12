@@ -11,7 +11,7 @@ Aircnc is a custom clone that aims to apply the knowledge and technologies used 
 <br>
 </h6>
 
-<h3 align="center"> First of all, you must run the backend and frontend application: <a href="https://github.com/Ganvs/aircnc-backend">aircnc_backend </a>, <a href="https://github.com/Ganvs/aircnc-frontend">aircnc_frontend</a> </h3>
+<h3 align="center"> First of all, you must run the backend and frontend application: <a href="https://github.com/Ganvs/aircnc-backend">aircnc_backend</a>, <a href="https://github.com/Ganvs/aircnc-frontend">aircnc_frontend</a> </h3>
 
 <img src="./img/screens.jpg">
 
