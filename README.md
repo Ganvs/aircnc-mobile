@@ -1,6 +1,5 @@
 <h1 align="center">Aircnc (Code and Coffee) Mobile - Omnistack 09 🚀</h1>
 
-<h2>Mobile Version</h2>
 <h3 align="center">
 Application that helps people connect to companies that are making the rental of physical places and the whole structure so that they can use and work with affordable values.
 </h3>
