@@ -18,7 +18,10 @@ Aircnc is a custom clone that aims to apply the knowledge and technologies used 
 
 <br>
 
-## How to nstall
+## How to install
+
+You need <a href="https://yarnpkg.com/lang/en/">Yarn</a> to this project.
+Go to the folder with the command prompt and run:
 
 ```sh
 yarn install
