@@ -32,7 +32,7 @@ function SpotList({ tech, navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>
-        Empresas que usamm <Text style={styles.bold}>{tech}</Text>
+        Empresas que usam <Text style={styles.bold}>{tech}</Text>
       </Text>
 
       <FlatList
